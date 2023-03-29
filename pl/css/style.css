@@ -1,0 +1,130 @@
+body{
+    background-color: #f5f5f5;
+}
+
+/* NAVBAR */
+.nav-link, .navbar-brand, .dropdown-item{
+    cursor: pointer;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+/* MAIN */
+#signupcontainer{
+    max-width: 720px !important;
+}
+
+/*#signin, #signup{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}*/
+
+#accounts, #resp-conges, #dir-conges, #resp-heuressupp, #dir-heuressupp, #collegues-conges{
+    /*max-width: 1380px !important;*/
+    max-width: 1600px !important;
+}
+
+#accounts tbody tr, #table-conges tbody .modify, #table-heuressupp tbody .modify, #table-respconges tbody .modify, #table-respconges thead th, #table-respheuressupp thead th, #table-dirconges thead th, #table-dirheuressupp thead th, #table-dirconges tbody .modify, #table-respheuressupp tbody .modify, #table-dirheuressupp tbody .modify{
+    cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#table-conges tbody tr, #table-heuressupp tbody tr, #table-respconges, #table-dirconges, #table-respheuressupp, #table-dirheuressupp, #table-collconges tbody tr{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#signincontainer{
+    max-width: 480px !important;
+}
+
+.category-remove, .responsable-remove{
+    width: 0;
+}
+
+#account-info{
+    border-right: #dee2e6 1px solid;
+}
+
+div .divreliquat{
+    padding-right: 8px;
+    margin: 16px 0 0 0;
+}
+
+div .divreliquat div{
+    padding: 0;
+}
+
+div .little{
+    margin-top: -16px;
+}
+
+div .little p{
+    font-size: 12px!important;
+}
+
+#modal-horaires{
+    width: 100%;
+    margin-top: 8px;
+}
+
+p{
+    font-size: 14px;
+}
+
+#calendar{
+    max-width: 1100px;
+    margin: 0 auto 10px auto;
+}
+
+#calendar a{
+    color: #212529;
+    text-decoration: none;
+}
+
+#switchdisplay{
+    width: 100%
+}
+
+#agentcalendar, #categcalendar{
+    width: auto;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* Fond semi-transparent */
+    z-index: 999; /* Empêche les autres éléments de s'afficher par-dessus */
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: -60px 0 0 -60px;
+    border: 16px solid #f3f3f3; /* Gris clair */
+    border-top: 16px solid #6c757d; /* Gris foncé */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,66 @@
+<main class="d-flex">
+    <div id="account" class="container-fluid">
+        <div class="row">
+            <div id="account-info" class="col-md-3 col-lg-3 d-md-block sidebar">
+                <div class="position-sticky pt-3 sidebar-sticky">
+                    <div class="row g-3">
+                      <div class="col-md-12 border-bottom pb-2">
+                        <h2 id="title" class="text-center"></h2>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Identifiant :</p><p id="login"></p>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Email :</p><p id="email"></p>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Téléphone :</p><p id="tel"></p>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Portable :</p><p id="portable"></p>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Adresse :</p><p id="adresse"></p>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Code postal :</p><p id="code_postal"></p>
+                      </div>
+                      <div class="col-md-12 ps-3 d-flex">
+                        <p class="fw-bold pe-1">Ville :</p><p id="ville"></p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            <div class="col-md-9 ms-sm-auto col-lg-9 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Tableau de bord</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                      <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button id="modal-add-conges" type="button" class="btn btn-outline-success">Button1</button>
+                        <button id="modal-add-heuressupp" type="button" class="btn btn-outline-success">Button2</button>
+                      </div>
+                    </div>
+                </div>
+              <div id='listheuressupp' class="table-responsive d-none">
+                <table id="table-heuressupp" class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Date de demande</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Heures effectuées</th>
+                            <th scope="col">Détails</th>
+                            <th scope="col">Heures retenues</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        
+                    </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+    </div>
+</main>
+
