@@ -31,7 +31,9 @@ function isConnected(){
 }elseif($_POST['content'] == "instructeurs" && isConnected()){
     echo "instructeurs";
 }elseif($_POST['content'] == "account" && isConnected()){
-    echo "account";
+    echo "account";    
+}elseif($_POST['content'] == "avions" && isConnected()){
+    echo "avions";
 }else{
     echo "signin"; 
 }
